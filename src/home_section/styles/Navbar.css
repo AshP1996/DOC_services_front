@@ -1,0 +1,40 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .nav-buttons .nav-button {
+    margin-left: 15px;
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #2575fc;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-buttons .nav-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #424247;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
